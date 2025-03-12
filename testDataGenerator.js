@@ -11,6 +11,9 @@ class TestDataGenerator {
       id: faker.string.uuid(),
       firstName: faker.person.firstName(),
       lastName: faker.person.lastName(),
+      email: faker.internet.email(),
+      address: faker.location.streetAddress(),
+      phone: faker.phone.number(),
     };
   }
 }
